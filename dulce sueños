@@ -579,7 +579,7 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 5px;
             padding-bottom: 10px;
             width: 100%;
             max-width: 100%;
