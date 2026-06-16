@@ -557,8 +557,8 @@
             position: relative;
             overflow-x: auto;
             white-space: nowrap;
-            padding: 8px 15px;
-            gap: 8px;
+            padding: 10px 10px;
+            gap: 10px;
             scrollbar-width: none;
             -webkit-overflow-scrolling: touch; 
         }
@@ -566,9 +566,9 @@
         .nav-categorias::-webkit-scrollbar {
             display: none;
         }
-
+   
         .subcategorias-container {
-            padding: 0 15px 15px 15px;
+            padding: 0 15px 5px 5px;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -1092,10 +1092,10 @@
     </div>
 
     <nav class="nav-categorias">
-        <button class="btn-cat activo" onclick="cambiarCategoria('sabanas', this)"> 👑Sábanas </button>
-        <button class="btn-cat" onclick="cambiarCategoria('acolchados', this)">✨Acolchados</button>
-        <button class="btn-cat" onclick="cambiarCategoria('cortinas', this)">🪟Cortinas</button>
-        <button class="btn-cat" onclick="cambiarCategoria('sabanas_exclusivas', this)">🛏️Protector</button>
+        <button class="btn-cat activo" onclick="cambiarCategoria('sabanas', this)"> Sábanas </button>
+        <button class="btn-cat" onclick="cambiarCategoria('acolchados', this)">Acolchados</button>
+        <button class="btn-cat" onclick="cambiarCategoria('cortinas', this)">Cortinas</button>
+        <button class="btn-cat" onclick="cambiarCategoria('sabanas_exclusivas', this)">Protector</button>
     </nav>
 
     <div class="subcategorias-container">
@@ -1367,16 +1367,13 @@
                 <div class="paso-numero">1</div>
                 <div class="paso-texto"><strong>Elige tus productos</strong> favoritos del catálogo y añádelos al pedido.</div>
             </div>
-            <div class="paso-item">
-                <div class="paso-numero">2</div>
-                <div class="paso-texto">Presiona <strong>"Ver Pedido"</strong> y llena tus datos básicos de envío.</div>
-            </div>
+           
              <div class="paso-item">
-                <div class="paso-numero">3</div>
+                <div class="paso-numero">2</div>
                 <div class="paso-texto">Envía tu orden, y comprovante de pago    por WhatsApp. <span class="alerta-roja">¡Despachamos de inmediato!</span></div>
             </div>
             <div class="paso-item resaltado">
-                <div class="paso-numero">4</div>
+                <div class="paso-numero">3</div>
                 <div class="paso-texto"><strong> Tus productos</strong> llegaran en un plaso de <span class="alerta-roja">6 a 7 dias habiles</span>.</div>
             </div>
 
